@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="icon" type="image/x-icon" href="./images/clipart3340480.png">
+   <link rel="stylesheet" href="./stylesheeet.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Bebas+Neue&family=Chonburi&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Mea+Culpa&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Playwrite+BE+WAL+Guides&family=Playwrite+CA+Guides&family=Roboto+Slab:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+   
+</head>
+<body class="">
+    <!-- navbar -->
+   <nav class="navbar navbar-expand-lg text-primary shadow-lg z-1">
+  <div class="container-fluid px-5 ">
+    <a class="navbar-brand text-primary fs-5 " href="#">Aby Varghese</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto  gap-1" style="font-size: 18px;">
+         <li class="nav-item">
+          <a href="#about" class="nav-link px-1 text-primary">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#skills"  class="nav-link px-1 text-primary" >Skills</a>
+        </li>
+        <li class="nav-item">
+          <a href="#project"  class="nav-link px-1 text-primary" >Projects</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact"  class="nav-link px-1 text-primary">Contact</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+        <li>
+          <a href="./images/Resume.pdf" download="Resume.pdf"><button href="./images/Resume.pdf" download type="download" class="btn btn-outline-primary mt-1">Download CV</button></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<!-- Body -->
+ <div class="container pb-3">
+    <div class="row text-center align-items-center ">
+        <div class="col-12 col-md-6 order-2 order-md-1">
+            <div class="heroheading fw-bold text-dark lh-1"><h2>Aby Varghese</h2></div>
+            <div class="herosubheading  text-gray-600">Software engineer/Ai Artist/Game Developer</div>
+            
+            <div class="heropargraph text-secondary pb-3">"Bridging modern software engineering with creative technology. I specialize in developing responsive full-stack applications, intelligent computer vision systems, and interactive gameplay experiences"</div>
+            <!-- <div class="d-flex gap-3 justify-content-center justify-content-md-start"> -->
+            <a href="#project"  class="btn btn-primary rounded-4 px-3 shadow-sm">View Projects</a>
+            <a href="#contact"  class="btn btn-primary rounded-4 px-3 shadow-sm">Contact me</a>
+          
+        </div>
+        <div class="col-12 col-md-6 text-center order-1 order-md-2 align-items-center">
+          <div class="d-inline-block position-relative">
+            <img src="./images/facial-close-up-attractive-man-face-isolated-white-background-36090816.jpg" 
+                 class="img-fluid rounded-4 shadow-lg border border-3 border-white heroimage " 
+                 alt="Aby Varghese">
+                 
+          </div>
+        </div>
+        </div>
+       
+    </div>
+ </div>
+
+<div class="about" id="about">
+
+  <div class="col-md-12">
+  <div id="carouselExampleDark" class="carousel carousel-dark slide ">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner text-white">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="/images/20.jpg" class=" aboutimage" alt="...">
+        <div class="carousel-caption  bg-dark bg-opacity-75 rounded-3 p-3 mx-auto" style="max-width: 650px;">
+      <h5 class="text-white fw-bold mb-1">Academic Grounding &amp; Learning @ FISAT</h5>
+      <p class="text-white-50 mb-0">Engaging in deep technical discussions, collaborative coursework, and expanding core computer science concepts.</p>
+      <button class="mt-2 px-2 btn btn-sm btn-outline-light text-white shadow-lg rounded-4 rounded-pill" data-bs-toggle="modal" data-bs-target="#modalSlide1">know more</button>
+  </div>
+      </div>
+     <div class="carousel-item" data-bs-interval="5000">
+            <img src="./images/images.jpg" class="aboutimage" alt="Software Development" >
+            <div class="carousel-caption  bg-dark bg-opacity-75 rounded-3 p-3 mx-auto" style="max-width: 85%;">
+              <h5 class="text-white fw-bold mb-1">Hands-On Development @cherthala</h5>
+              <p class="text-white-50 mb-2 small">Translating ideas into clean, functional, and responsive applications.</p>
+              <button type="button" class="btn btn-sm btn-outline-light rounded-pill px-3" data-bs-toggle="modal" data-bs-target="#modalSlide2">
+                Know More
+              </button>
+            </div>
+          </div>
+      <div class="carousel-item" data-bs-interval="5000">
+            <img src="./images/UNADJUSTEDNONRAW_thumb_2c-1024x682.webp" class="aboutimage" alt="Collaboration" >
+            <div class="carousel-caption  bg-dark bg-opacity-75 rounded-3 p-3 mx-auto" style="max-width: 85%;">
+              <h5 class="text-white fw-bold mb-1">Collaborative Problem Solving @kandamangalam</h5>
+              <p class="text-white-50 mb-2 small">Working within peer teams during hackathons and technical sprints.</p>
+              <button type="button" class="btn btn-sm btn-outline-light rounded-pill px-3" data-bs-toggle="modal" data-bs-target="#modalSlide3">
+                Know More
+              </button>
+            </div>
+          </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </div>
+</div>
+<!-- for first modal -->
+<div class="modal fade" id="modalSlide1" tabindex="-1" aria-labelledby="modalSlide1Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-dark">
+      <div class="modal-header">
+        <h5 class="modal-title fw-bold text-center" id="modalSlide1Label">FISAT Academic Journey</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-start">
+        <p>Learned about the technical training, classroom coursework, and foundational computer science studies undertaken at FISAT. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi repudiandae recusandae saepe tenetur non molestias reiciendis officiis, nam, magnam error, dolores laudantium. Vitae sapiente eaque tempore quod tenetur, harum maxime.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- for second modal -->
+ <div class="modal fade" id="modalSlide2" tabindex="-1" aria-labelledby="modalSlide2Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-dark">
+      <div class="modal-header">
+        <h5 class="modal-title fw-bold" id="modalSlide2Label">Hands-On Development</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-start">
+        <p>Build responsive web layouts,mastered modern UI frameworks and database applications. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum rerum sunt sapiente et voluptates atque porro, excepturi optio culpa provident? Quae, doloremque. Nemo exercitationem eaque odio. Obcaecati aspernatur consequatur repellat!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- for 3rd modal -->
+<div class="modal fade" id="modalSlide3" tabindex="-1" aria-labelledby="modalSlide3Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-dark">
+      <div class="modal-header">
+        <h5 class="modal-title fw-bold" id="modalSlide3Label">Teamwork &amp; Hackathons</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-start">
+        <p>Engaged in hackathons, group presentations, and team problem solving to deliver software under strict deadlines. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas quod corporis modi eum earum ullam inventore quos recusandae aliquid iste itaque, illum laborum veniam nulla at cum repellendus debitis vel?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Timeline of Education -->
+<section class="container my-5">
+  <div class="text-center timelines rounded-4 p-3 shadow-sm gap-3">
+    <h3 class="text-white fw-bold mb-4">Education &amp; Milestones</h3>
+
+    <div class="timelinecards shadow-lg bg-white rounded-4 m-3 my-3">
+      <div class="shadow-sm my-3 pb-3">
+          <span class="badge bg-primary rounded-pill mb-2">2027</span>
+          <h4 class="fw-bold text-gray-900 mb-1">Passed Luminar Full Stack Course</h4>
+          <p class="timelinepara text-gray-600 mb-0">MEARN Stack &amp; Full-Stack Web Development</p>
+        </div>
+       <div class="border border-white shadow-sm my-3 pb-3">
+          <span class="badge bg-primary rounded-pill mb-2">2022-2026</span>
+          <h4 class="fw-bold text-gray-900 mb-1">Passed College with Honors</h4>
+          <p class="timelinepara text-gray-600 mb-0">Bachelor's Degree Program</p>
+        </div>
+       <div class="shadow-sm my-3 pb-3">
+          <span class="badge bg-primary rounded-pill mb-2">2022</span>
+          <h4 class="fw-bold text-gray-900 mb-1">Passed +2 with 100% Grade</h4>
+          <p class="timelinepara text-gray-600 mb-0">Higher Secondary Education at Kalladi</p>
+        </div>
+      <div class="shadow-sm pb-3 my-3">
+          <span class="badge bg-primary rounded-pill mb-2">2019</span>
+          <h4 class="fw-bold text-gray-900 mb-1">Passed High School with Full A+</h4>
+          <p class="timelinepara text-gray-600 mb-0">Secondary School Certificate</p>
+        </div>
+       
+    </div>
+  </div>
+</section>
+
+<!-- Skill page -->
+<h2 class="text-center fw-semibold" id="skills">My Skills</h2>
+<p class="text-gray-600 text-center">Technologies and tools I am familiar</p>
+<div  id="Skills" class= "row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 m-4 row-wrap px-4 g-4">
+  <div class="col text-start shadow-lg p-2 border border-black rounded-3 bg-primary  g-4">
+    <div class="card h-100 text-start p-2 border border-primary rounded-4 bg-primary ">
+      <img src="./images/663377cdccbb01001de6b31b.jpg" class="card-img-top max-width:40px;" alt="...">
+      <div class="card-body  lh-1 text-white">
+        <h5 class="card-title fw-bold text-white">Frontend</h5>
+        <p class="text-white lh-1">Skill:Proficient</p>
+        <span class="d-block fw-noraml text-white mb-2 ">Builded responsive, accessible, and interactive user interface </span>
+       <!-- <p class="text-left 1h-lg">Created Multiple Websites For differnet clients using a combination of</p> -->
+     <div class="d-flex flex-wrap gap-1">
+            <span class="badge bg-white text-dark border px-2 py-1">HTML</span>
+            <span class="badge bg-white text-dark border px-2 py-1">CSS</span>
+            <span class="badge bg-white text-dark border px-2 py-1">Bootstrap</span>
+            <span class="badge bg-white text-dark border px-2 py-1">Tailwind</span>
+            <span class="badge bg-white text-dark border px-2 py-1">Python</span>    
+          </div>
+      </div>
+    </div>
+  </div>
+   <div class="col text-start shadow-lg p-2 border border-black rounded-3 bg-primary ">
+    <div class="card h-100 text-start p-2 border border-primary rounded-4 bg-primary">
+      <img src="./images/backend-coding-development-database-storage-management-laptop-computer-showing-programming-code-server-icons-representing-469406018.webp" class="card-img-top" alt="...">
+      <div class="card-body  lh-1 text-white">
+        <h5 class="card-title fw-bold text-white">Backend and Database</h5>
+        <p class="text-white lh-1">Skill:Beginner</p>
+        <span class="d-block fw-noraml text-white mb-2 ">Developed server-side logic, API endpoints, and database connections.</span>
+       <!-- <p class="text-left 1h-lg">Created Multiple Websites For differnet clients using a combination of</p> -->
+     <div class="d-flex flex-wrap  gap-1">
+            <span class="badge bg-white text-dark border px-2 py-1">Node.js</span>
+            <span class="badge bg-white text-dark border px-2 py-1">Express</span>
+            <span class="badge bg-white text-dark border px-2 py-1">MongoDB</span>
+            <span class="badge bg-white text-dark border px-2 py-1">PostgreSQL</span>
+            <span class="badge bg-white text-dark border px-2 py-1">Python</span>
+            <span class="badge bg-white text-dark border px-2 py-1">JavaScript</span>     
+          </div>
+      </div>
+    </div>
+  </div>
+   <div class="col  text-start shadow-lg p-2 border border-black rounded-3 bg-primary ">
+    <div class="card h-100 text-start p-2 border border-primary rounded-4 bg-primary">
+      <img src="./images/language.webp" class="card-img-top max-width:40px;" alt="...">
+      <div class="card-body  lh-1 text-white">
+        <h5 class="card-title fw-bold text-white">Game Development and ML training</h5>
+        <p class="text-white lh-1">Skill:Proficient</p>
+        <span class="d-block fw-noraml text-white mb-2 ">Build 2d platomer metrovania hack-slah games and trained ml from ground up </span>
+       <!-- <p class="text-left 1h-lg">Created Multiple Websites For differnet clients using a combination of</p> -->
+     <div class="d-flex flex-wrap gap-1">
+            <span class="badge bg-white text-dark border px-2 py-1">Godot</span>
+            <span class="badge bg-white text-dark border px-2 py-1">GDScript</span>
+            <span class="badge bg-white text-dark border px-2 py-1">C#</span> 
+             <span class="badge bg-white text-dark border px-2 py-1">jupyter notebook</span> 
+          </div>
+      </div>
+    </div>
+  </div>
+   <div class="col text-start shadow-lg p-2 border border-black rounded-3 bg-primary ">
+    <div class="card h-100 text-start p-2 border border-primary rounded-4 bg-primary">
+      <img src="./images/leader-authority-boss-coach-director-manager-concept_53876-133859.avif" class="card-img-top max-width:40px;" alt="...">
+      <div class="card-body  lh-1 text-white">
+        <h5 class="card-title fw-bold text-white">Leadership and Team management</h5>
+        <p class="text-white lh-1">Skill:Proficient</p>
+        <span class="d-block fw-noraml text-white mb-2 ">Managed the group as a leader during hackathon and during college group project </span>
+       <!-- <p class="text-left 1h-lg">Created Multiple Websites For differnet clients using a combination of</p> -->
+     <div class="d-flex flex-wrap  gap-1" style="font-size: 15px;">
+            <span class="badge bg-white text-dark border px-2 py-1">Time management</span>
+            <span class="badge bg-white text-dark border px-2 py-1">Project planning</span>
+            <span class="badge bg-white text-dark border px-2 py-1">Git collaboration</span>
+            <span class="badge bg-white text-dark border px-2 py-1">Team Coordination</span>   
+            <span class="badge bg-white text-dark border px-2 py-1">Active Communication</span>   
+          </div>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+
+
+
+<!-- My projects -->
+ <section class="projects container" id="project">
+  <h2 class="fw-semibold text-center pt-4">My projects</h2>
+  <p class="text-gray-600 text-center">Featured Works & Projects</p>
+  <div class="row row-cols-2 align-items-center my-3 py-3 ">
+    <div class="col-12 col-md-6 " >
+     <img src="./images/1Yyld0HExgEaToDMddVvvbw.png" class="img-fluid  d-block shadow-sm  mx-auto projectimg">
+    </div>
+    <div class="col-12 col-md-6 text-center   ">
+     <div class="mx-md-4 projectcard p-4 rounded-3">
+        <h3 class="fw-bold">Crowdsource pothole detection system</h3>
+        <p class="fw-medium">An intelligent computer vision system that detects road damage and potholes in real-time from crowdsource mobile video images that are uploaded. It automatically geotags road hazards using GPS coordinates to help municipal teams prioritize infrastructure repairs efficiently.Created a mobile app for users and an administrative dashboard for government officials</p>
+        <div>
+          <span class="badge text-dark bg-white px-2 fw-bold">Python</span>
+          <span class="badge text-dark bg-white px-2 fw-bold">YOLO26 </span>
+          <span class="badge text-dark bg-white px-2 fw-bold">Pytorch</span>
+          <span class="badge text-dark bg-white px-2 fw-bold">React</span>
+          <span class="badge text-dark bg-white px-2 fw-bold">Openmap Api</span>
+        </div>
+        <div class="mt-3">
+          <a href="" target="_blank" class="btn rounded-2 btn-light px-3 fw-semibold"><i class="fa-brands fa-github"></i>Github</a>
+          <a href="#" target="_blank" class="btn  btn-light rounded-2 px-3 fw-semibold">
+            <i class="fa-solid fa-arrow-up-right-from-square "></i>Demo Video</a>
+        </div>
+     </div>
+    </div>
+  </div>
+
+
+   <div class="row row-cols-2 align-items-center my-3 py-3 ">
+    <div class="col-12 col-md-6 text-center mt-3 ">
+     <div class="mx-4 projectcard p-4 rounded-3">
+        <h3 class="fw-bold">Planet Phones</h3>
+        <p class="fw-medium">A sleek, fully responsive e-commerce catalog and repair service interface for mobile devices. Features responsive brand filtering, service appointment scheduling workflows, quick specification overviews, and an optimized mobile shopping experience</p>
+        <div>
+          <span class="badge text-dark bg-white px-2 fw-bold">HTML5</span>
+          <span class="badge text-dark bg-white px-2 fw-bold">Tailwind CSS </span>
+          <span class="badge text-dark bg-white px-2 fw-bold">JavaScript</span>
+          <span class="badge text-dark bg-white px-2 fw-bold">Figma</span>
+          <span class="badge text-dark bg-white px-2 fw-bold">Mongo DB</span>
+        </div>
+        <div class="mt-3">
+          <a href="" target="_blank" class="btn rounded-2 btn-light px-3 fw-semibold"><i class="fa-brands fa-github"></i>Github</a>
+          <a href="#" class="btn  btn-light rounded-2 px-3 fw-semibold">
+            <i class="fa-solid fa-arrow-up-right-from-square "></i>Demo Video</a>
+        </div>
+     </div>
+    </div>
+    <div class="col-12 col-md-6 rounded-4" st>
+     <img src="./images/Screenshot 2026-10-30 at 11-00-45 Mobile App.png" class="img-fluid text-center d-block mx-auto projectimg">
+    </div>
+    
+  </div>
+    <div class="row row-cols-2 align-items-center my-3 py-3 ">
+    <div class="col-12 col-md-6 rounded-4" >
+     <img src="./images/hcKPLssZfcx9ti6otMAXMm.png" class="img-fluid  d-block shadow-sm  mx-auto projectimg">
+    </div>
+    <div class="col-12 col-md-6 text-center   ">
+     <div class="mx-4 projectcard p-4 rounded-3">
+        <h3 class="fw-bold">Glock-2D Metroidvania Action Platformer</h3>
+        <p class="fw-medium">A retro-inspired 2D action platformer featuring custom player movement physics, responsive hack-and-slash combat mechanics, and interconnected level progression built around modular state management.</p>
+        <div>
+          <span class="badge text-dark bg-white px-2 fw-bold">Godot Engine</span>
+          <span class="badge text-dark bg-white px-2 fw-bold">GDScript </span>
+          <span class="badge text-dark bg-white px-2 fw-bold">blender</span>
+          <span class="badge text-dark bg-white px-2 fw-bold">Stemdb</span>
+        </div>
+        <div class="mt-3">
+          <a href="" target="_blank" class="btn rounded-2 btn-light px-3 fw-semibold"><i class="fa-brands fa-github"></i>Github</a>
+          <a href="#" target="_blank" class="btn  btn-light rounded-2 px-3 fw-semibold">
+            <i class="fa-solid fa-arrow-up-right-from-square "></i>Demo Video</a>
+        </div>
+     </div>
+    </div>
+  </div>
+
+
+ </section>
+
+<footer id="contact" class="row text-center bg-primary text-white align-items-center p-3 shadow-lg border border-white rounded-4">
+  <div class="col-md-12 pb-1 mx-auto d-flex gap-3 justify-content-center">
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook text-white"></i></a>
+        <a href="https://in.linkedin.com/" target="_blank"><i class="fa-brands fa-square-linkedin text-white"></i></a>
+        <a href><i class="fa-brands fa-github text-white"></i></a>
+        <a href><i class="fa-brands fa-gitlab text-white"></i></a>
+  </div>
+  <div class="col-md-12 pb-1 ">
+
+      <p class="p-1 m-1">
+        <i class="fa-solid fa-envelope me-2"></i>
+        <a href="mailto:example@gmail.com" class="text-white text-decoration-none">abyvarghese@gmail.com</a>
+      </p>
+      <p class="p-1 m-1">
+        <i class="fa-solid fa-phone me-2"></i>
+        <a href="tel:+91123456789" class="text-white text-decoration-none">+91 123 456 789</a>
+     </p>
+  </div>
+  <hr class="border-white border-opacity-25">
+<div class="col-12  bg-primary bg-opacity-75 ">
+@2026 All rights Reserved
+</div>
+</footer>
+ 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
